@@ -1,4 +1,4 @@
-def annual_check(day: int, month: int, year: int):
+def data(day: int, month: int, year: int):
     month_31_d = [1, 3, 5, 7, 8, 10, 12]
     month_30_d = [4, 6, 9, 11]
     if 0 < day <= 31 and month in month_31_d:
@@ -13,4 +13,4 @@ def annual_check(day: int, month: int, year: int):
             return True
     return False
     
-print(annual_check(22, 5, 2020))
+print(data(22, 5, 2020))
